@@ -179,7 +179,7 @@ extension UILabel {
 extension UIColor {
     class var background: UIColor {
         if #available(iOS 13, *) {
-            return .systemBackground
+            return .white
         } else {
             return .white
         }
